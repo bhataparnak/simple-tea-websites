@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="my tea portal">
+    <meta name="keywords" content="">
+
+    <title>
+        My tea portal
+    </title>
+
+    <meta name="keywords" content="">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100' rel='stylesheet' type='text/css'>
+
+    <!-- styles -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+  
+    <!-- theme stylesheet -->
+    <link href="css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+    <script src="js/respond.min.js"></script>
+
+    <link rel="shortcut icon" href="favicon.png">
+
+</head>
+
+<body>
+
+    <!-- *** TOPBAR *** -->
+    <div id="top">
+        <div class="container">
+            <div class="col-md-6 offer">
+                <a href="#" class="btn btn-success btn-sm">Offer of the day</a>  <a href="#">Get flat 15% off on orders over Rs500!</a>
+            </div>
+            <div class="col-md-6">
+                <ul class="menu">
+                    <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
+                    </li>
+                    <li><a href="register.html">Register</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="Login">Customer login</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="email-modal" placeholder="email">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="password-modal" placeholder="password">
+                            </div>
+
+                            <p class="text-center">
+                                <button class="btn btn-success"><i class="fa fa-sign-in"></i> Log in</button>
+                            </p>
+                            <div class="text-center"><a href="#" style="color:#3071a9;">Forgot Password?</a></div>
+                        </form>
+
+                        <p class="text-center text-muted">Not registered yet?</p>
+                        <p class="text-center text-muted"><a href="register.html" style="color: #333;"><strong>Register now</strong></a> ! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- *** TOP BAR END *** -->
+
+    <!-- *** NAVBAR *** -->
+
+
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+        <div class="container">
+            <div class="navbar-header">
+
+                <a class="navbar-brand home" href="index.html">
+                    <img src="images/logo.png" alt="tea logo" class="hidden-xs">
+                    <img src="images/logo-small.png" alt="tea logo" class="visible-xs"><span class="sr-only">go to homepage</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-align-justify"></i>
+                    </button>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#search">
+                        <span class="sr-only">Toggle search</span>
+                        <i class="fa fa-search"></i>
+                    </button>
+                   
+                </div>
+            </div>
+            <!--/.navbar-header -->
+
+            <div class="navbar-collapse collapse" id="navigation">
+
+                <ul class="nav navbar-nav navbar-left">
+                   
+                    <li class="dropdown yamm-fw">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Teas <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="yamm-content">
+                                    <div class="row">
+                                        <div class="col-sm-3 col-xs-12">
+                                            <h5>Tea Types</h5>
+                                            <ul>
+                                                <li><a href="#">Black Tea</a>
+                                                </li>
+                                                <li><a href="#">Green Tea</a>
+                                                </li>
+                                                <li><a href="#">White Tea</a>
+                                                </li>
+                                                <li><a href="#">Oolong Tea</a>
+                                                </li>
+                                                <li><a href="#">Chai Tea</a>
+                                                </li>
+                                                <li><a href="#">Blended Tea</a>
+                                                </li>
+                                                <li><a href="#">Matcha Tea</a>
+                                                </li>
+                                            </ul>
+                                            <div><a href="productstea.html">Shop All Teas >></a></div>
+                                        </div>
+                                        <div class="col-sm-3 col-xs-12">
+                                            <h5>Collection</h5>
+                                            <ul>
+                                                <li><a href="#">Organic</a>
+                                                </li>
+                                                <li><a href="#">Herbal</a>
+                                                </li>
+                                                <li><a href="#">Breakfast</a>
+                                                </li>
+                                                <li><a href="#">Flavored</a>
+                                                </li>
+                                                <li><a href="#">Iced</a>
+                                                </li>
+                                            </ul>
+                                            <h5>Cafeine Level</h5>
+                                            <ul>
+                                                <li><a href="#">High</a>
+                                                </li>
+                                                <li><a href="#">Low</a>
+                                                </li>
+                                                <li><a href="#">Medium</a>
+                                                </li>
+                                                <li><a href="#">Caffeine free</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        
+                                        <div class="col-sm-3 col-xs-12">
+                                            <h5>By Flavor</h5>
+                                            <ul>
+                                                <li><a href="#">Ginger Tea</a>
+                                                </li>
+                                                <li><a href="#">Peppermint tea</a>
+                                                </li>
+                                                <li><a href="#">Jasmine Tea</a>
+                                                </li>
+                                                <li><a href="#">Spearmint Tea</a>
+                                                </li>
+                                                <li><a href="#">Lavender Tea</a>
+                                                </li>
+                                                <li><a href="#">Hibiscus Tea</a>
+                                                </li>
+                                                <li><a href="#">Chamomile Tea</a>
+                                                </li>
+                                                <li><a href="#">Rose Tea</a>
+                                                </li>
+                                                <li><a href="#">Cinnamon Tea</a>
+                                                </li>
+                                                <li><a href="#">Lemongrass Tea</a>
+                                                </li>
+                                            </ul>
+                                            
+                                        </div>
+                                        <div class="col-sm-3 col-xs-12 hidden-xs">
+                                            <div class="banner">
+                                                <a href="#">
+                                                    <img src="images/banner1.jpeg" class="img img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown yamm-fw">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Teaware <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="yamm-content">
+                                    <div class="row">
+                                        <div class="col-sm-3 col-xs-12">
+                                            <h5>Shop By</h5>
+                                            <ul>
+                                                <li><a href="#">Tea Makers</a>
+                                                </li>
+                                                <li><a href="#">Tea Sets & Teapots</a>
+                                                </li>
+                                                <li><a href="#">Tea Infusers</a>
+                                                </li>
+                                                <li><a href="#">Cups & Mugs</a>
+                                                </li>
+                                                <li><a href="#">Tumbler Cups</a>
+                                                </li>
+                                                <li><a href="#">Tea tins</a>
+                                                </li>
+                                                <li><a href="#">Tea Tools & Accessories</a>
+                                                </li>
+                                                <li><a href="#">Gift Sets</a>
+                                                </li>
+                                                <li><a href="#">New Arrivals</a>
+                                                </li>
+                                                <li><a href="#">Sale</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-3 col-xs-12">
+                                            <h5>Material</h5>
+                                            <ul>
+                                                <li><a href="#">Glass</a>
+                                                </li>
+                                                <li><a href="#">BPA Free Plastic</a>
+                                                </li>
+                                                <li><a href="#">Ceramic</a>
+                                                </li>
+                                                <li><a href="#">Stainless & Metal</a>
+                                                </li>
+                                                <li><a href="#">Bamboo</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-3 col-xs-12">
+                                            <h5>Best Seller</h5>
+                                            <ul>
+                                                <li><a href="#">Tea Sets & Teapots</a>
+                                                </li>
+                                                <li><a href="#">Iced tea Maker</a>
+                                                </li>
+                                                <li><a href="#">Cups & Mugs</a>
+                                                </li>
+                                                <li><a href="#">Tumbler Cups</a>
+                                                </li>
+                                            </ul>
+                                            
+                                        </div>
+                                        <div class="col-sm-3 col-xs-12 hidden-xs">
+                                            <div class="banner">
+                                                <a href="#">
+                                                    <img src="images/banner.jpg" class="img img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="banner">
+                                                <a href="#">
+                                                    <img src="images/banner2.jpg" class="img img-responsive" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#" data-hover="dropdown">Gifts</a></li>
+                    <li><a href="wholesale.html" data-hover="dropdown">Wholesale</a></li>
+                    <li><a href="blogs.html" data-hover="dropdown">Blog</a></li>
+                    <li><a href="#" data-hover="dropdown">Sale</a></li>
+                    <li><a href="#" data-hover="dropdown">Samples</a></li>
+                </ul>
+
+            </div>
+            <!--/.nav-collapse -->
+
+            <div class="navbar-buttons">
+
+               
+                <div class="navbar-collapse collapse right" id="search-not-mobile">
+                    <button type="button" class="btn navbar-btn btn-primary" data-toggle="collapse" data-target="#search">
+                        <span class="sr-only">Toggle search</span>
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="collapse clearfix" id="search">
+
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+
+			<button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+
+		    </span>
+                    </div>
+                </form>
+
+            </div>
+            <!--/.nav-collapse -->
+
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /#navbar -->
+
+    <!-- *** NAVBAR END *** -->
+<div id="all">
+    <!-- footer -->  
+  <footer id="aa-footer">
+    <!-- footer bottom -->
+    <div class="aa-footer-top">
+     <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+          <div class="aa-footer-top-area">
+            <div class="row">
+              <div class="col-md-2 col-sm-6">
+                <div class="aa-footer-widget">
+                  <h3>SHOP FOR</h3>
+                  <ul class="aa-footer-nav">
+                    <li><a href="#">Black Tea</a></li>
+                    <li><a href="#">Green Tea</a></li>
+                    <li><a href="#">White Tea</a></li>
+                    <li><a href="#">Oolong Tea</a></li>
+                    <li><a href="#">Chai Tea</a></li>
+                    <li><a href="#">Blended Tea</a></li>
+                    <li><a href="#">Samples</a></li>
+                    <li><a href="#">Best Selling</a></li>
+                    <li><a href="#">New Arrival</a></li>
+                    <li><a href="#">Teaware</a></li>
+                    <li><a href="#">Gifts</a></li>
+                    <li><a href="#">Sale</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-6">
+                <div class="aa-footer-widget">
+                  <div class="aa-footer-widget">
+                    <h3>ABOUT</h3>
+                    <ul class="aa-footer-nav">
+                      <li><a href="about.html">About myteaportal</a></li>
+                      <li><a href="wholesale.html">Wholesale</a></li>
+                      <li><a href="blogs.html">Blog</a></li>
+                      <li><a href="#">Careers</a></li>
+                      <li><a href="#">Testimonials</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+               <div class="col-md-3 col-sm-6">
+                <div class="aa-footer-widget">
+                  <div class="aa-footer-widget">
+                    <h3>CUSTOMER SERVICE</h3>
+                    <ul class="aa-footer-nav">
+                      <li><a href="contact.html">Contact Us</a></li>
+                      <li><a href="#">Delivery & Shipping</a></li>
+                      <li><a href="#">Returns</a></li>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">Gift Card</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-6">
+                <div class="aa-footer-widget">
+                  <div class="aa-footer-widget">
+                    <h3>POLICIES</h3>
+                    <ul class="aa-footer-nav">
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Terms of Use</a></li>
+                      <li><a href="#">Security</a></li>
+                      <li><a href="#">Terms of Sale</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="aa-footer-widget">
+                  <div class="aa-footer-widget">
+                    <h3>LET'S GET SOCIAL</h3>
+                    <div class="aa-footer-social">
+                      <a href="#"><span class="fa fa-facebook"></span></a>
+                      <a href="#"><span class="fa fa-twitter"></span></a>
+                      <a href="#"><span class="fa fa-linkedin"></span></a>
+                      <a href="#"><span class="fa fa-instagram "></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </div>
+    <!-- footer-bottom -->
+    <div class="aa-footer-bottom">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+          <div class="aa-footer-bottom-area">
+            <p>Copyright © 2016 myteaportal | Designed by Aparna Bhat</p>
+            <div class="aa-footer-payment">
+              <span class="fa fa-cc-mastercard"></span>
+              <span class="fa fa-cc-visa"></span>
+              <span class="fa fa-paypal"></span>
+              <span class="fa fa-cc-discover"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </footer>
+  <!-- / footer -->
+</div>
+ <!-- *** SCRIPTS TO INCLUDE *** -->   
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/bootstrap-hover-dropdown.js"></script>
+    </body>
+</html>
